@@ -1,6 +1,6 @@
 
 body{
-  background: #E4E7F9;
+  background: white;
 	font-family: 'Titillium Web', sans-serif;
 }
 
@@ -10,15 +10,16 @@ nav {
 }
 */
 body {
-  padding-top: 56px;
+  padding-top: 79px;
 }
 .navbar {
-  box-shadow: 2px 2px 5px #000;
+
+  box-shadow: 1px 1px 3px #000;
   opacity: .9;
 }
 
 .navbar .nav-item .nav-link{
-  color: #fff;
+  color: black;
 }
 
 .main-header{
@@ -53,7 +54,7 @@ body {
 
 .carousel-item {
   height: 65vh;
-  min-height: 300px;
+  min-height: 400px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
