@@ -4,13 +4,14 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta title="Lo Arreglan Todo - Empresa de multiservicios | Lecheria" >
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
      <!--bootstrap-->
     <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
     <!-- custom css-->
     <link rel="stylesheet" href="css/main.css">
-
-    <title>Lo arreglan todo.</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/LOGO.ico" />
+    <title>Lo Arreglan Todo - Empresa de multiservicios | Lecheria</title>
   </head>
   <body>
   	<!--- start navbar style="background-color: #003399;" -->
@@ -21,7 +22,7 @@
 		  </a>
 		  
 
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
@@ -47,23 +48,38 @@
 	<!--- end navbar-->
 	<!--- start header-->
   <header class="main-header" id="home">
-  	<div class="background-overlay text-white py-5">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-md-6 text-center justify-content-center align-self-center">
-					<img src="img/LOGO.png" class="img-fluid" width="30%" alt="logo">
-					<p>Lorem ipsum dolor sit amet, consectetur 
-					Lorem ipsum dolor sit amet, consectetur</p>
-					<a href="#" class="btn btn-outline-warning btn-lg">Leer más.</a>
-  				</div>
-  				<div class="col-md-6">
-  					<div class="header-content-right">
-  						<img src="img/equipo.jpg" class="img-fluid img-profile rounded mt-2 d-none d-sm-block"  width="100%" alt="foto">
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        
+      </ol>
+      <div class="carousel-inner" role="listbox">
+  
+        <div class="carousel-item active" style="background-image: url('img/header.jpeg')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!--
+        <div class="carousel-item " style="background-image: url('img/bg-navbar.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Titulo</h3>
+            <p>Empresa a la vanguardia en el area mantenimiento.</p>
+          </div>
+        </div>
+    	-->
+      </div>
+      <!--
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  -->
+    </div>
 	
   </header>
     <section id="newsletter" style="background: #ff6600;" class=" text-white py-5 mb-0">
@@ -147,35 +163,35 @@
       </div>
     </section>
 	<div class="bg-white" id="service">
-	    <section class="container text-center p-5">
+	    <section class="containerb bg-light text-center p-5">
 	      <div class="row">
 	      	<div class="col-md-8">
 	      		<div class="row">
 	      			<div class="col-md-4">
-						<img  src="img/iconos3.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="60%">
-						<h3 class="text-primary text-center"><strong>Electricidad</strong></h3>      				
+						<img  src="img/ico_electricidad.jpeg" alt="" class="img-fluid rounded mx-auto d-block" width="80%">
+						<!--<h3 class=" text-center" style="color: #003399;"><strong>Electricidad</strong></h3>-->      				
 	      			</div>
 	      			<div class="col-md-4">
-						<img  src="img/iconos5.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="60%">
-						<h3 class="text-success text-center"><strong>Aire acondicionado</strong></h3>      				
+						<img  src="img/ico_aire.jpeg" alt="" class="img-fluid rounded mx-auto d-block" width="80%">
+						<!--<h3 class=" text-center" style="color: #009933;"><strong>Aire acondicionado</strong></h3>-->   				
 	      			</div>
 	      			<div class="col-md-4">
-						<img  src="img/iconos4.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="60%">
-						<h3 class="text-danger text-center"><strong>Plomeria</strong></h3>      				
+						<img  src="img/ico_plomeria.jpeg" alt="" class="img-fluid rounded mx-auto d-block" width="80%">
+						<!--<h3 class=" text-center" style="color: #ff6600;"><strong>Plomeria</strong></h3>-->   				
 	      			</div>
 	      		</div>
 	      		<div class="row">
 	      			<div class="col-md-4">
-						<img  src="img/iconos2.jpg" alt="" class="img-fluid rounded mx-auto d-block"  width="60%">
-						<h3 class="text-warning text-center"><strong>Albañileria</strong></h3>      				
+						<img  src="img/ico_albañileria.jpeg" alt="" class="img-fluid rounded mx-auto d-block mt-3"  width="80%">
+						<!--<h3 class="text-warning text-center"><strong>Albañileria</strong></h3>--> 				
 	      			</div>
 	      			<div class="col-md-4">
-						<img  src="img/iconos 1.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="60%">
-						<h3 class="text-info text-center"><strong>Limpieza</strong></h3>      				
+						<img  src="img/ico_limpieza.jpeg" alt="" class="img-fluid rounded mx-auto d-block mt-3" width="80%">
+						<!--<h3 class="text-info text-center"><strong>Limpieza</strong></h3>-->   				
 	      			</div>
 	      			<div class="col-md-4">
-						<img  src="img/iconos6.jpg" alt="" class="img-fluid rounded mx-auto d-block"  width="60%">
-						<h3 class=" text-center"style="color: #9570CC;"><strong>Servicio Especializado</strong></h3>     				
+						<img  src="img/ico_pintura.jpeg" alt="" class="img-fluid rounded mx-auto d-block mt-3"  width="80%">
+						<!--<h3 class=" text-center"style="color: #9570CC;"><strong>Servicio Especializado</strong></h3>-->  				
 	      			</div>      			
 	      		</div>
 	      	</div>
@@ -184,7 +200,7 @@
 	          <div class="card">
 	            <div class="card-header" id="headingOne">
 	              <h5 class="mb-0">
-	                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	                <button class="btn btn-link text-warning" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 	                  Electricidad
 	                </button>
 	              </h5>
@@ -199,7 +215,7 @@
 	          <div class="card">
 	            <div class="card-header" id="headingTwo">
 	              <h5 class="mb-0">
-	                <button class="btn btn-link text-success collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: #07C2FE;">
 	                  Refrigeración
 	                </button>
 	              </h5>
@@ -213,7 +229,7 @@
 	          <div class="card">
 	            <div class="card-header" id="headingThree">
 	              <h5 class="mb-0">
-	                <button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	                <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: #ff6600;">
 	                  Plomeria
 	                </button>
 	              </h5>
@@ -227,7 +243,7 @@
 	          <div class="card">
 	            <div class="card-header" id="headingThree">
 	              <h5 class="mb-0">
-	                <button class="btn btn-link text-warning collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: #ff6600;">
 	                  Albañileria
 	                </button>
 	              </h5>
@@ -241,7 +257,7 @@
 	          <div class="card">
 	            <div class="card-header" id="headingThree">
 	              <h5 class="mb-0">
-	                <button class="btn btn-link text-info collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	                <button class="btn btn-link text-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 	                  Limpieza
 	                </button>
 	              </h5>
@@ -255,7 +271,7 @@
 	          <div class="card">
 	            <div class="card-header" id="headingThree">
 	              <h5 class="mb-0">
-	                <button class="btn btn-link collapsed" style="color: #9570CC;" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: #ff0066;">
 	                  Servicio Especial
 	                </button>
 	              </h5>
@@ -306,116 +322,6 @@
 	<!--- end navbar-->
 	
 	<!--- sección de servicios
-	<div class="container mt-4" id="service">
-		<div class="card border-primary my-5">
-			<div class="card-header">
-				<h1 class="text-center">Servicios</h1>
-			</div>
-			<div class="card-body">
-				<div class="row">
-					<div class="col-md-4">
-						<img  src="img/iconos3.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="60%">
-						<h3 class="text-primary text-center"><strong>Electricidad</strong></h3>
-					</div>
-					<div class="col-md-4">
-						<img  src="img/iconos5.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="60%">
-						<h3 class="text-success text-center"><strong>Aire acondicionado</strong></h3>
-					</div>
-					<div class="col-md-4">
-						<img  src="img/iconos4.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="60%">
-						<h3 class="text-danger text-center"><strong>Plomeria</strong></h3>
-					</div>
-				</div>	
-				<div class="row">
-					<div class="col-md-4">
-						<img  src="img/iconos2.jpg" alt="" class="img-fluid rounded mx-auto d-block"  width="60%">
-						<h3 class="text-warning text-center"><strong>Albañileria</strong></h3>
-					</div>
-					<div class="col-md-4">
-						<img  src="img/iconos 1.jpg" alt="" class="img-fluid rounded mx-auto d-block" width="60%">
-						<h3 class="text-info text-center"><strong>Limpieza</strong></h3>
-					</div>
-					<div class="col-md-4">
-						<img  src="img/iconos6.jpg" alt="" class="img-fluid rounded mx-auto d-block"  width="60%">
-						<h3 class=" text-center"style="color: #9570CC;"><strong>Servicio Especializado</strong></h3>
-					</div>				
-				</div>	
-				<hr>
-				<ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
-				 	<li class="nav-item">
-				    	<a class="nav-link active" id="home-tab" data-toggle="tab" href="#electricidad" role="tab" aria-controls="home" aria-selected="true">Electricidad</a>
-				  	</li>
-				  	<li class="nav-item">
-				    	<a class="nav-link text-success" id="profile-tab" data-toggle="tab" href="#aire" role="tab" aria-controls="profile" aria-selected="false">Aire acondicionado</a>
-				  	</li>
-				  	<li class="nav-item">
-				    	<a class="nav-link text-danger" id="contact-tab" data-toggle="tab" href="#plomeria" role="tab" aria-controls="contact" aria-selected="false">Plomeria</a>
-				  	</li>
-				  	<li class="nav-item">
-				    	<a class="nav-link text-warning" id="albanileria-tab" data-toggle="tab" href="#albanileria" role="tab" aria-controls="albanileria" aria-selected="false">Albañileria</a>
-				  	</li>
-				  	<li class="nav-item">
-				    	<a class="nav-link text-info" id="limpieza-tab" data-toggle="tab" href="#limpieza" role="tab" aria-controls="limpieza" aria-selected="false">Limpieza</a>
-				  	</li>
-				  	<li class="nav-item">
-				    	<a class="nav-link"style="color: #9570CC;" id="especial-tab" data-toggle="tab" href="#especial" role="tab" aria-controls="especial" aria-selected="false">Servicio Especial</a>
-				  	</li>
-				</ul>
-				<div class="tab-content" id="myTabContent">
-			  		<div class="tab-pane fade show active" id="electricidad" role="tabpanel" aria-labelledby="home-tab">
-				  		<h1 class="mt-3">Electricidad <a href="#contact"><button class="btn btn-outline-primary">Contactar</button></a></h1>
-				  		<p class="mt-3">
-				  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-						</p>
-						
-			  		</div>
-				  	<div class="tab-pane fade" id="aire" role="tabpanel" aria-labelledby="profile-tab">
-				  		<h1 class="mt-3">Aire acondicionado <a href="#contact"><button class="btn btn-outline-success">Contactar</button></a></h1>
-				  		<p class="mt-3" id="aireC">
-				  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada
-						</p>
-						
-				  	</div>
-				  	<div class="tab-pane fade" id="plomeria" role="tabpanel" aria-labelledby="contact-tab">
-				  		<h1 class="mt-3">Plomeria <a href="#contact"><button class="btn btn-outline-danger">Contactar</button></a></h1>
-				  		<p class="mt-3">
-				  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-						</p>
-						
-				  	</div>
-				  	
-				  	<div class="tab-pane fade" id="albanileria" role="tabpanel" aria-labelledby="albanileria-tab">
-				  		<h1 class="mt-3">Albañileria <a href="#contact"><button class="btn btn-outline-warning">Contactar</button></a></h1>
-				  		<p class="mt-3">
-				  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-						</p>
-						
-				  	</div>
-				  	<div class="tab-pane fade" id="limpieza" role="tabpanel" aria-labelledby="limpieza-tab"> 
-				  		<h1 class="mt-3">Limpieza <a href="#contact"><button class="btn btn-outline-info">Contactar</button></a></h1>
-				  		<p class="mt-3">
-				  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-						</p>
-						
-				  	</div>
-				  	<div class="tab-pane fade" id="especial" role="tabpanel" aria-labelledby="especial-tab"> 
-				  		<h1 class="mt-3">Servicio especializado <a href="#contact"><button class="btn btn-outline-dark">Contactar</button></a></h1>
-				  		<p class="mt-3">
-				  			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida malesuada.
-						</p>
-				  	</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-	-->
-	<!--- fin sección de servicios
 
     <section class="text-center team">
       <div class="container p-5">
@@ -525,12 +431,11 @@
         <div class="row">
           <div class="m-5">
             <h2>¿Quienes somos?</h2>
-            <hr>
             <hr style="background: white;">
             <div class="row">
             	<div class="col-md-6">
 					<div class="about-content-right mt-3">
-						<img class="img-fluid img-profile rounded mt-2"  alt="Responsive image" src="img/electricista.jpg" style="width: 100%">
+						<img class="img-fluid img-profile rounded mt-2"  alt="Responsive image" src="img/ico_herramientas.jpeg" style="width: 100%">
 					</div>            		
             	</div>
             	<div class="col-md-6">
@@ -545,38 +450,6 @@
       </div>
     </section>
 
-
-
-
-	<!--
-	<div class="container p-2" id="about">
-		<div class="card bg-light border-dark my-5 tarjeta">
-			<div class="card-header">
-				<h1 class="text-center">¿Quienes somos?</h1>
-			</div>
-			<div class="card-body titulo-bit">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="about-content-right mt-3">
-							<img class="img-fluid img-profile rounded mt-2"  alt="Responsive image" src="img/electricista.jpg" style="width: 100%">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="about-content-left">
-							<h1 class="display-4">Titulo.</h1>
-							<p class="mt-3">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan libero ut magna venenatis, sit amet sodales libero facilisis. Suspendisse blandit dolor eget nisi gravida 
-								malesuada. Nullam faucibus lacus vitae dapibus tempor. Nam finibus pharetra sapien ut elementum. Nullam dapibus velit nisl, sed facilisis magna facilisis et. Phasellus euismod urna quis 
-								est aliquam hendrerit. Fusce vitae ipsum rutrum, malesuada nunc non, iaculis metus. Vivamus leo mi, dictum quis justo eget, consequat molestie tortor. Fusce sagittis tellus in placerat 
-								pellentesque. Nullam ornare, magna non pretium mollis, est dui varius eros, sit amet cursus nunc justo id sapien.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	fin sección de about-->
 
 	<!-- sección de feedback-->
 <div id="feedback">
@@ -725,7 +598,7 @@
 
 		</div>
 	</div>
-	<!-- fin sección de contact-->
+	 fin sección de contact-->
 
 
 
